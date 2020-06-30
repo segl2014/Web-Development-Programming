@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=sevice-width,initial-scales=1.0" >
+        <meta http-equiv="x-UA-Comatible" content="ie=edge">
+        <title>Documents</title>
+
+        <style>
+            /* attribute selector */
+           [href]{
+               color: darkred;
+           }
+
+           /* combining attribute and type selector*/
+           #[href] {
+               text-decoration: none;
+           }
+
+           /* attribute+value ratch selector*/
+           a[href="https://www.google.com"]{
+               font-size: 1.2em;
+           }
+
+           a[target="_blank"]{
+                color: green;
+           }
+        </style>
+        
+    </head>
+    <body>
+       <a href="https://www.google.com">Google search page</a>
+       <a href="https://www.google.com" target="_blank"> Google search page</a>
+       
+       <span>Span1</span>
+
+       <a href="https://www.facebook">Facebook</a>
+       <span>Span2</span>
+    </body>
+    </html>
